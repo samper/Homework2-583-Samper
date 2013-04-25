@@ -1,5 +1,4 @@
 
-
 Homework 2
 ==========
 
@@ -13,6 +12,9 @@ the smallest one. This produces the GCD in O(log(min{|a|, |b|}) steps.
 
 Homework 3
 ==========
+
+Python vs. Cython
+-----------------
 
 I did the first three problems and I am not donde with #4 and #5. I was in
 a conference last week and did not have much time to code. If permitted I'll 

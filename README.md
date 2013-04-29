@@ -53,19 +53,33 @@ should be true.
 
 Exercise 2: 
 0 : 0
+
 1 : 83003
+
 2 : 83108
+
 3 : 1
+
 4 : 83010
+
 5 : 1
+
 6 : 0
+
 7 : 83104
+
 8 : 83152
+
 9 : 0
+
 10 : 0
+
 11 : 83101
+
 12 : 0
+
 13 : 83077
+
 14 : 83022
 
 This is the table I printed for the problem. We could conjecture two things: 

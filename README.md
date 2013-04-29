@@ -39,6 +39,7 @@ Homework 4
 Computational number theory
 ---------------------------
 Exercise 1:
+-----------
 Here we propose the following conjecture: 
 Let a,b,c be positive integers such that gcd(a,b,c)=1, the discriminant  \sqrt(b^2 - 4ac) is not rational
 and whenever c is even then the parities of a and b are different. 
@@ -52,6 +53,8 @@ up to 10^3, 10^5, 10^7. I picked some generic elements and printed the results. 
 should be true. 
 
 Exercise 2: 
+-----------
+
 0 : 0
 
 1 : 83003

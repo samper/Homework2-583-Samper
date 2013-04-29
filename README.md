@@ -28,10 +28,7 @@ I print all the sums up to a 100000 to test how long it takes.
 In problem 3 I did the obvious sieve up to sqrt(n) to determine if n is prime. Then I improve
 the algorithm by using cython. I printed the primes up to 100000. To verify the timing. 
 
-I plan to compute the determinant using row echelon form where cython should be considerably faster,
-given that it involves doing lots of multiplications. 
 
-For the product of matrices I'll just compute coordinatewise. 
 
 Homework 4
 ==========
@@ -90,3 +87,9 @@ This is the table I printed for the problem. We could conjecture two things:
 1) There are infintely many primes congruent to a mod 15 if (a,15)=1. 
 
 2) The distribution of the primes is uniform among the residues a that are relatively prime to 15. 
+
+Exercise 3:
+-----------
+The number you have is 1234567/8901234. To do this I ran a loop to find b computing 372806624339965*b modulo 37+10^15
+and making sure both b and the residue mod 37+10^15 are smaller than 10^7. This gives only one possibility for a and b
+and we can verify that the decimal expansion starts with 13869616280169693. 

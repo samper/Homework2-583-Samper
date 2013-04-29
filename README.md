@@ -35,6 +35,9 @@ Homework 4
 
 Computational number theory
 ---------------------------
+This homework is suported by the program Homework4 in this repository. 
+
+
 Exercise 1:
 -----------
 Here we propose the following conjecture: 

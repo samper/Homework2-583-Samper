@@ -1,3 +1,8 @@
+Instructions
+============
+Read the section corresponding to the correspondig homework. 
+This week: Howework 4
+
 Homework 2
 ==========
 

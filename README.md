@@ -38,7 +38,8 @@ Homework 4
 
 Computational number theory
 ---------------------------
-1. Here we propose the following conjecture: 
+Exercise 1:
+Here we propose the following conjecture: 
 Let a,b,c be positive integers such that gcd(a,b,c)=1, the discriminant  \sqrt(b^2 - 4ac) is not rational
 and whenever c is even then the parities of a and b are different. 
 there are infinitely many primes of the form ax^2 + bx + c. 
@@ -49,3 +50,24 @@ third one makes sure that the polynomial does not evaluate to zero in F_2 (the f
 To support this I wrote a program in the file Homework 4, that takes three integers a, b, c and computes how many primes, 
 up to 10^3, 10^5, 10^7. I picked some generic elements and printed the results. The computation suggests the conjecture 
 should be true. 
+
+Exercise 2: 
+0 : 0
+1 : 83003
+2 : 83108
+3 : 1
+4 : 83010
+5 : 1
+6 : 0
+7 : 83104
+8 : 83152
+9 : 0
+10 : 0
+11 : 83101
+12 : 0
+13 : 83077
+14 : 83022
+
+This is the table I printed for the problem. We could conjecture two things: 
+1. There are infintely many primes congruent to a mod 15 if (a,15)=1. 
+2. The distribution of the primes is uniform among the residues a that are relatively prime to 15. 

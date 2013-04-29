@@ -1,4 +1,3 @@
-
 Homework 2
 ==========
 
@@ -33,3 +32,20 @@ I plan to compute the determinant using row echelon form where cython should be 
 given that it involves doing lots of multiplications. 
 
 For the product of matrices I'll just compute coordinatewise. 
+
+Homework 4
+==========
+
+Computational number theory
+---------------------------
+1. Here we propose the following conjecture: 
+Let a,b,c be positive integers such that gcd(a,b,c)=1, the discriminant  \sqrt(b^2 - 4ac) is not rational
+and whenever c is even then the parities of a and b are different. 
+there are infinitely many primes of the form ax^2 + bx + c. 
+
+All the values that do not satisfy our conditions can be easily discarded, the first one gives us a divisor for all
+evaluations, the second one gives a factorization in integers by factoring the polynomial into linear factors and the
+third one makes sure that the polynomial does not evaluate to zero in F_2 (the field with two elements). 
+To support this I wrote a program in the file Homework 4, that takes three integers a, b, c and computes how many primes, 
+up to 10^3, 10^5, 10^7. I picked some generic elements and printed the results. The computation suggests the conjecture 
+should be true. 

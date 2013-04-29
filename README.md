@@ -83,5 +83,5 @@ Exercise 2:
 14 : 83022
 
 This is the table I printed for the problem. We could conjecture two things: 
-1. There are infintely many primes congruent to a mod 15 if (a,15)=1. 
-2. The distribution of the primes is uniform among the residues a that are relatively prime to 15. 
+1) There are infintely many primes congruent to a mod 15 if (a,15)=1. 
+2) The distribution of the primes is uniform among the residues a that are relatively prime to 15. 

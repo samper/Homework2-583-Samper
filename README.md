@@ -101,3 +101,20 @@ Exercise 3:
 The number you have is 1234567/8901234. To do this I ran a loop to find b computing 372806624339965*b modulo 37+10^15
 and making sure both b and the residue mod 37+10^15 are smaller than 10^7. This gives only one possibility for a and b
 and we can verify that the decimal expansion starts with 13869616280169693. 
+
+Homework 5
+==========
+This homework is supported by the sage file Homework 5 in this repository. 
+Breaking RSA
+------------
+Here factor the number 
+4654252230393111226989449826741007006486078009450861095070222439898324342353927553909251532232407850265642079868425916328810273416481567992145162141358151
+We use the hint that says that the two prime numbers are very close to each other and run an algorithm asking to 
+factor using prime factors close to the square root of n. 
+We get the numbers: 
+
+68222080226222296181917368518534332259513625527062166102114730123514248558349
+
+68222080226222296181917368518534332259513625527062166102114730123514248558499
+
+That differ only by 150. 

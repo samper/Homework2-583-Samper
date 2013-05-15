@@ -118,3 +118,16 @@ We get the numbers:
 68222080226222296181917368518534332259513625527062166102114730123514248558499
 
 That differ only by 150. 
+
+Homework 6
+==========
+This homework is supported by the file Homework 6 in this repository. 
+Diffie-Hellmann key
+-------------------
+The secret number of this problem is 79067655658429219567805855344438774741
+The computations can be found in the first part of the file
+
+RSA encryption:
+---------------
+The message is 34197073220901184551129292001394589184880483289566520542660754136539424199979218985
+for the given e,n. 
